@@ -44,6 +44,7 @@ export interface LabeledInputProps {
 export interface PillProps {
   label: string;
   isActive?: boolean;
+  image?: string;
   onClick?: () => void;
 }
 
