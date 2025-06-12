@@ -4,15 +4,7 @@ import Pill from "@/components/common/Pill";
 import Hero from "@/components/common/Hero";
 import Link from "next/link";
 import Carousel from "@/components/common/Carousel";
-
-const leftPills = [
-  "All",
-  "Top Villa",
-  "Free Reschedule",
-  "Book Now, Pay later",
-  "Self Checkin",
-  "Instant Book",
-];
+import FilteredSection from "@/components/common/FilterSection";
 
 export default function Home() {
   return (
@@ -22,12 +14,8 @@ export default function Home() {
       <div className="px-4 md:px-8 py-6">
         <h2 className="text-2xl font-bold mb-6">Featured Properties</h2>
         <div className="flex justify-between mb-6">
-          <div className="flex gap-20">
-            {leftPills.map((label) => (
-              <Pill key={label} label={label} />
-            ))}
-          </div>
-          <div className="flex gap-4">
+          <FilteredSection />
+          <div className="flex flex-wrap items-center gap-4">
             <Pill label="Filter" image="/assets/icons/Filter.png" />
             <Pill label="Sort by: Highest Price" />
           </div>
