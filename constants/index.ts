@@ -436,4 +436,4 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
   },
 ];
 
-export const HERO_BACKGROUND = "/assets/Hero/Image 1.png";
+export const HERO_BACKGROUND = "/assets/Hero/Image1.png";
