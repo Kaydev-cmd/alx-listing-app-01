@@ -27,9 +27,11 @@ export default function Home() {
                 <PropertyCard
                   key={index}
                   name={property.name}
+                  address={property.address}
                   price={`$${property.price.toLocaleString()}`}
                   rating={property.rating}
                   image={property.image}
+                  offers={property.offers}
                 />
               </Link>
             </div>
