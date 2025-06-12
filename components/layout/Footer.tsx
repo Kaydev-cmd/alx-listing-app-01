@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-between text-[#CACACA] gap-8 flex-1">
+        <div className="flex flex-col sm:flex-row justify-around text-[#CACACA] gap-8 flex-1">
           <div>
             <h2 className="text-lg font-semibold mb-3">Explore</h2>
             <ul className="space-y-2">
