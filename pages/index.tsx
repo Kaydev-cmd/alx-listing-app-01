@@ -13,8 +13,6 @@ const leftPills = [
   "Instant Book",
 ];
 
-const rightPills = ["Filter", "Sort by: Higest Price"];
-
 export default function Home() {
   return (
     <>
@@ -28,9 +26,8 @@ export default function Home() {
             ))}
           </div>
           <div className="flex gap-4">
-            {rightPills.map((label) => (
-              <Pill key={label} label={label} />
-            ))}
+            <Pill label="Filter" image="/assets/icons/Filter.png" />
+            <Pill label="Sort by: Highest Price" />
           </div>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-4">
