@@ -22,6 +22,12 @@ const PropertyDetail: React.FC<{ property: PropertyProps }> = ({
           className="col-span-2 w-full h-96 object-cover rounded-lg"
         />
       </div>
+
+      {/* Description */}
+      <div className="mt-4">
+        <h2 className="text-2xl font-semibold">Description</h2>
+        <p>{property.description}</p>
+      </div>
     </div>
   );
 };
