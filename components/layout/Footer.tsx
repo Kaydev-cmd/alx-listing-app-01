@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col justify-around gap-4 md:w-2/5">
           <a href="/">
             <img
-              src="./assets/Vector1.png"
+              src="/assets/Vector1.png"
               alt="ALX Logo"
               className="h-8 w-auto"
             />
