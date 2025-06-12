@@ -2,6 +2,7 @@ import { PROPERTYLISTINGSAMPLE } from "@/constants";
 import PropertyCard from "@/components/common/PropertyCard";
 import Pill from "@/components/common/Pill";
 import Hero from "@/components/common/Hero";
+import Link from "next/link";
 
 const leftPills = [
   "All",
@@ -35,13 +36,15 @@ export default function Home() {
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-4">
           {PROPERTYLISTINGSAMPLE.map((property, index) => (
             <div className="flex justify-center">
-              <PropertyCard
-                key={index}
-                name={property.name}
-                price={`$${property.price.toLocaleString()}`}
-                rating={property.rating}
-                image={property.image}
-              />
+              <Link href={`property/${property.id}`}>
+                <PropertyCard
+                  key={index}
+                  name={property.name}
+                  price={`$${property.price.toLocaleString()}`}
+                  rating={property.rating}
+                  image={property.image}
+                />
+              </Link>
             </div>
           ))}
         </div>
