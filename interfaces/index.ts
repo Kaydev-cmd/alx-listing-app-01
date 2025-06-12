@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 interface CardProps {
   title: string;
   content: string;
@@ -13,6 +15,7 @@ interface ButtonProps {
 }
 
 export interface PropertyProps {
+  id: string;
   name: string;
   address: {
     state: string;
@@ -49,4 +52,8 @@ export interface PropertyCardProps {
   price: string;
   rating: number;
   image: string;
+}
+
+export interface LayoutProps {
+  children: ReactNode;
 }
