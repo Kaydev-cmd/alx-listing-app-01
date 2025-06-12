@@ -31,7 +31,7 @@ const PropertyDetail: React.FC<{ property: PropertyProps }> = ({
 
       {/* Amenities */}
       <div className="mt-4">
-        <h2 className="text-2xl font-semibold">What this place offers</h2>
+        <h2 className="text-2xl font-semibold mb-4">What this place offers</h2>
         <ul className="flex flex-wrap space-x-4">
           {property.category.map((amenity, index) => (
             <li key={index} className="bg-gray-200 p-2 rounded-md">
