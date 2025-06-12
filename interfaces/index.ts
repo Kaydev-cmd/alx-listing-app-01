@@ -58,3 +58,8 @@ export interface PropertyCardProps {
 export interface LayoutProps {
   children: ReactNode;
 }
+
+export interface LogosProps {
+  image: string;
+  alt: string;
+}
