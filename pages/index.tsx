@@ -2,6 +2,7 @@ import { PROPERTYLISTINGSAMPLE } from "@/constants";
 import PropertyCard from "@/components/common/PropertyCard";
 import Pill from "@/components/common/Pill";
 import { HERO_BACKGROUND } from "@/constants";
+import Hero from "@/components/common/Hero";
 
 const leftPills = [
   "All",
@@ -17,6 +18,7 @@ const rightPills = ["Filter", "Sort by: Higest Price"];
 export default function Home() {
   return (
     <>
+      <Hero />
       <div className="px-4 md:px-8 py-6">
         <h2 className="text-2xl font-bold mb-6">Featured Properties</h2>
         <div className="flex justify-between mb-6">
