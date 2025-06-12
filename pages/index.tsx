@@ -1,7 +1,6 @@
 import { PROPERTYLISTINGSAMPLE } from "@/constants";
 import PropertyCard from "@/components/common/PropertyCard";
 import Pill from "@/components/common/Pill";
-import { HERO_BACKGROUND } from "@/constants";
 import Hero from "@/components/common/Hero";
 
 const leftPills = [
@@ -33,7 +32,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-4">
           {PROPERTYLISTINGSAMPLE.map((property, index) => (
             <div className="flex justify-center">
               <PropertyCard
