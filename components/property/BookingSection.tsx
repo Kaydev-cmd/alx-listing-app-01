@@ -22,6 +22,13 @@ const BookingSection: React.FC<{ price: number }> = ({ price }) => {
           id="date"
         />
       </div>
+
+      {/* Total Payment */}
+      <div className="mt-4">
+        <p>
+          Total payment: <strong>${price * 7}</strong>
+        </p>
+      </div>
     </div>
   );
 };
