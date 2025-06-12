@@ -29,6 +29,11 @@ const BookingSection: React.FC<{ price: number }> = ({ price }) => {
           Total payment: <strong>${price * 7}</strong>
         </p>
       </div>
+
+      {/* Reserve Button */}
+      <button className="mt-4 bg-green-500 text-white py-2 px-4 rounded-md">
+        Reserve now
+      </button>
     </div>
   );
 };
