@@ -28,7 +28,7 @@ const Header: React.FC = () => {
       <div className="self-center md:self-auto">
         <a href="/">
           <img
-            src="./assets/Vector.png"
+            src="/assets/Vector.png"
             alt="ALX Logo"
             className="h-8 w-auto"
           />
@@ -48,7 +48,7 @@ const Header: React.FC = () => {
           className="p-2 self-center md:self-end mt-2 md:mt-0 cursor-pointer"
         >
           <img
-            src="./assets/Frame 22.png"
+            src="/assets/Frame 22.png"
             alt="Search icon"
             className="h-[40px] w-[180px]"
           />
