@@ -5,7 +5,8 @@ import PropertyDetail from "@/components/property/PropertyDetail";
 export default function PropertyPage() {
   const router = useRouter();
   const { id } = router.query;
-  const property = PROPERTYLISTINGSAMPLE.find((item) => item.name === id);
+
+  const property = PROPERTYLISTINGSAMPLE.find((item) => item.id === id);
 
   if (!property) return <p>Property not found</p>;
 
