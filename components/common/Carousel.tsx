@@ -1,4 +1,3 @@
-import { CarouselProps } from "@/interfaces";
 import React from "react";
 
 const logos = [
