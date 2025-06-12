@@ -13,6 +13,15 @@ const PropertyDetail: React.FC<{ property: PropertyProps }> = ({
           {property.address.city}, {property.address.country}
         </span>
       </div>
+
+      {/* Image Grid */}
+      <div className="grid grid-cols-2 gap-4 mt-4">
+        <img
+          src={property.image}
+          alt={property.name}
+          className="col-span-2 w-full h-96 object-cover rounded-lg"
+        />
+      </div>
     </div>
   );
 };
