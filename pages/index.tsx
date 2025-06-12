@@ -3,6 +3,7 @@ import PropertyCard from "@/components/common/PropertyCard";
 import Pill from "@/components/common/Pill";
 import Hero from "@/components/common/Hero";
 import Link from "next/link";
+import Carousel from "@/components/common/Carousel";
 
 const leftPills = [
   "All",
@@ -16,6 +17,7 @@ const leftPills = [
 export default function Home() {
   return (
     <>
+      <Carousel />
       <Hero />
       <div className="px-4 md:px-8 py-6">
         <h2 className="text-2xl font-bold mb-6">Featured Properties</h2>
