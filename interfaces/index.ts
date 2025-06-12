@@ -50,9 +50,19 @@ export interface PillProps {
 
 export interface PropertyCardProps {
   name: string;
+  address: {
+    state: string;
+    city: string;
+    country: string;
+  };
   price: string;
   rating: number;
   image: string;
+  offers: {
+    bed: string;
+    shower: string;
+    occupants: string;
+  };
 }
 
 export interface LayoutProps {
