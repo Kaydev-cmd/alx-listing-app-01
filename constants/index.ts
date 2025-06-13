@@ -1,4 +1,4 @@
-import { PropertyProps } from "@/interfaces";
+import { PropertyProps, ReviewsProps } from "@/interfaces";
 import { LogosProps } from "@/interfaces";
 
 // API URLs
@@ -509,3 +509,30 @@ export const LOGOS: LogosProps[] = [
     alt: "Villa",
   },
 ];
+
+export const REVIEWS: ReviewsProps[] = [
+  {
+    avatar: "/assets/detail/Kerry.png",
+    name: "Kerry",
+    rating: 5,
+    comment: "I simply don’t have the words to describe how incredibly beautiful the villa and its surroundings are. This is a wonderful remote spot that is simply breathtaking"
+  },
+  {
+    avatar: "/assets/detail/Pooja.png",
+    name: "Pooja",
+    rating: 4.89,
+    comment: "We stayed at this home for a family vacation of 7 adults (including 3 couples, 1 baby) and had a fantastic stay. The house was BEAUTIFUL and honestly better than shown in pictures. "
+  },
+  {
+    avatar: "/assets/detail/CindyxBen.png",
+    name: "Cindy & Ben",
+    rating: 4.80,
+    comment: "I simply don’t have the words to describe how incredibly beautiful the villa and its surroundings are. This is a wonderful remote spot that is simply breathtaking"
+  },
+  {
+    avatar: "/assets/detail/Marnie.png",
+    name: "Marnie",
+    rating: 5,
+    comment: "We stayed at this home for a family vacation of 7 adults (including 3 couples, 1 baby) and had a fantastic stay. The house was BEAUTIFUL and honestly better than shown in pictures. "
+  },
+]
