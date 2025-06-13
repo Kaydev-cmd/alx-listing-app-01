@@ -465,10 +465,6 @@ export const LOGOS: LogosProps[] = [
     alt: "Farm",
   },
   {
-    image: "/assets/logos/farm1(1).png",
-    alt: "Farm",
-  },
-  {
     image: "/assets/logos/home1.png",
     alt: "Home",
   },
