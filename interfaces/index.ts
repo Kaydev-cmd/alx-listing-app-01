@@ -73,3 +73,10 @@ export interface LogosProps {
   image: string;
   alt: string;
 }
+
+export interface ReviewsProps {
+  avatar: string;
+  name: string;
+  rating: number;
+  comment: string;
+}
