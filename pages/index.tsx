@@ -37,6 +37,12 @@ export default function Home() {
             </div>
           ))}
         </div>
+        <div className="flex flex-col justify-center items-center gap-4 mt-8">
+          <button className="bg-black text-white py-2 px-4 rounded-full cursor-pointer hover:opacity-90">
+            Show More
+          </button>
+          <a href="#" className="hover:underline">Check to see more listings</a>
+        </div>
       </div>
     </>
   );
