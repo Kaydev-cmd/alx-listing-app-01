@@ -17,7 +17,7 @@ const OrderSummary: React.FC<OrderSummaryProps> = ({
           alt="Property"
           className="w-full  object-cover rounded-md"
         />
-        <div className="ml-4">
+        <div>
           <h3 className="text-lg font-semibold">{propertyName}</h3>
           <p className="text-sm text-gray-500">4.76 (345 reviews)</p>
           <p className="text-sm text-gray-500">
