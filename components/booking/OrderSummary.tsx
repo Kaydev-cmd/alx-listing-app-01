@@ -25,6 +25,22 @@ const OrderSummary: React.FC<OrderSummaryProps> = ({
           </p>
         </div>
       </div>
+
+      {/* Price Breakdown */}
+      <div className="mt-6">
+        <div className="flex justify-between">
+          <p>Booking Fee</p>
+          <p>${bookingFee}</p>
+        </div>
+        <div className="flex justify-between mt-2">
+          <p>Sub Total</p>
+          <p>${price}</p>
+        </div>
+        <div className="flex justify-between mt-2 font-semibold">
+          <p>Grand Total</p>
+          <p>${bookingFee + price}</p>
+        </div>
+      </div>
     </div>
   );
 };
