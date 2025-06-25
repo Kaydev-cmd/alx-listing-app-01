@@ -1,11 +1,14 @@
 import BookingForm from "@/components/booking/BookingForm";
 import React from "react";
+import { BOOKING_DETAILS } from "@/constants";
+import OrderSummary from "@/components/booking/OrderSummary";
 
 const BookingPage = () => {
   return (
     <div className="container mx-auto p-6">
       <div className="grid grid-cols-2 gap-6">
         <BookingForm />
+        <OrderSummary {...BOOKING_DETAILS} />
       </div>
     </div>
   );
