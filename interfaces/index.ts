@@ -80,3 +80,11 @@ export interface ReviewsProps {
   rating: number;
   comment: string;
 }
+
+export interface OrderSummaryProps {
+  propertyName: string;
+  price: number;
+  bookingFee: number;
+  totalNights: number;
+  startDate: string;
+}
