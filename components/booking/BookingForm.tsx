@@ -120,7 +120,7 @@ const BookingForm = () => {
         </div>
 
         {/* Submit Button */}
-        <button className="mt-6 bg-green-500 text-white py-2 px-4 rounded-md w-full">
+        <button className="mt-6 bg-green-500 text-white py-2 px-4 rounded-md w-full hover:bg-green-600 transition-colors cursor-pointer">
           Confirm & Pay
         </button>
       </form>
