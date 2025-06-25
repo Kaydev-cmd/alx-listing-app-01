@@ -2,6 +2,7 @@ import BookingForm from "@/components/booking/BookingForm";
 import React from "react";
 import { BOOKING_DETAILS } from "@/constants";
 import OrderSummary from "@/components/booking/OrderSummary";
+import CancellationPolicy from "@/components/booking/CancellationPolicy";
 
 const BookingPage = () => {
   return (
@@ -9,6 +10,7 @@ const BookingPage = () => {
       <div className="grid grid-cols-2 gap-6">
         <BookingForm />
         <OrderSummary {...BOOKING_DETAILS} />
+        <CancellationPolicy />
       </div>
     </div>
   );
