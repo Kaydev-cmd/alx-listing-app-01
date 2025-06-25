@@ -3,7 +3,7 @@ import React from "react";
 const BookingForm = () => {
   return (
     <div className="bg-white p-6 shadow-md rounded-lg">
-      <h2 className="text-xl font-semibold">Contact Details</h2>
+      <h2 className="text-xl font-semibold mb-6">Contact Details</h2>
       <form>
         {/* Contact Information */}
         <div className="grid grid-cols-2 gap-4">
