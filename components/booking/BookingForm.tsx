@@ -42,6 +42,35 @@ const BookingForm = () => {
             />
           </div>
         </div>
+
+        {/* Payment Details */}
+        <h2 className="text-xl font-semibold mt-6">Pay with</h2>
+        <div className="mt-4">
+          <label>Card Number:</label>
+          <input
+            type="text"
+            className="border p-2 w-full mt-2 rounded-lg"
+            placeholder="Card Number"
+          />
+        </div>
+        <div className="grid grid-cols-2 gap-4 mt-4">
+          <div>
+            <label>Expiration Date:</label>
+            <input
+              type="text"
+              className="border p-2 w-full mt-2 rounded-lg"
+              placeholder="Expiration Date"
+            />
+          </div>
+          <div>
+            <label>CVV:</label>
+            <input
+              type="text"
+              className="border p-2 w-full mt-2 rounded-lg"
+              placeholder="CVV"
+            />
+          </div>
+        </div>
       </form>
     </div>
   );
